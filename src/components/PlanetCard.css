@@ -1,0 +1,5 @@
+/* src/components/PlanetCard.css */
+.planet-card {
+    background-color: hsl(182, 98%, 74%);
+    color: #ffffff;
+  }

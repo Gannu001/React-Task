@@ -1,0 +1,18 @@
+.resident-list {
+    background-color: #f8f2f2;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(255, 255, 255, 0.2);
+  }
+  
+  .resident-list ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .resident-list li {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1.5px solid hsla(274, 100%, 85%, 0.596);
+    border-radius: 5px;
+  }

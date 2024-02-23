@@ -1,6 +1,11 @@
-Star Wars Planets Directory
+> Star Wars Planets Directory
 
-This web application showcases information about planets from the Star Wars universe , along with details about their notable residents. The application uses the Star Wars API (SWAPI) to fetch and display planet information.
+--->>><<<---  --->>><<<--- --->>><<<--- --->>><<<--- --->>><<<---
+ 
+ This web application showcases information about planets from the Star Wars universe , along with details about their notable residents. The application uses the Star Wars API (SWAPI) to fetch and display planet information.
+
+--->>><<<--- --->>><<<--- --->>><<<--- --->>><<<--- --->>><<<--- 
+
 
 Task Requirements ->>
  

@@ -1,0 +1,273 @@
+body {
+  font-family: 'Roboto', sans-serif; /* Star Wars-like font */
+  background-color: #001033;
+  background-image: url("https://wallpapers.com/images/hd/magnificent-starry-night-sky-wallpaper-wallpaper-studio-10-tens-v3wdzawac74zrdrx.webp");
+  color: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+
+
+
+
+.container {
+  max-width: 800px ;
+  margin: 20px auto ;
+  padding: 0 20px ;       /* Added padding for better mobile view */
+}
+
+.planet-card {
+  border: 1.5px solid #fff;
+  padding: 20px;
+  margin: 20px 0;
+  background-color: #2a0051d7;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(100, 108, 255, 0.96);
+}
+
+.resident-list {
+  margin-top: 20px;
+  background-color: #18103dc3;
+  border-radius: 5px;
+  box-shadow: 0 0 7px rgba(237, 189, 249, 0.96);
+}
+
+
+.pagination {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #fff;
+  color: #111;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+button:disabled {
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+button:hover {
+  background-color: #c78bff91;
+}
+
+/* Responsive Styling */
+@media screen and (max-width: 600px) {
+  .container {
+    
+    padding: 0 10px;
+  }
+
+  .planet-card {
+    padding: 15px;
+  }
+}
+
+
+
+
+
+
+/* heading animation */
+.bold-AG {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.medium-AG {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.book-AG {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/*
+Title font, use <b> for bold weight, <i> for book weight, and unadorned <h1> for medium weight.
+*/
+h1 {
+  font-family: itc-avant-garde-gothic-pro,sans-serif;
+  font-weight: 100;
+  font-style: normal;
+  color: white;
+  font-size: 6.667vw;
+  line-height: .25vw;
+  font-feature-settings: "ss01" 1, "ss03" 1, "kern" 1, "dlig" 1;
+}
+
+
+
+.neon-text {
+  animation: flicker 8s linear infinite;
+}
+
+
+
+@keyframes flicker {
+  0% {
+    /*3*/
+    opacity: 25%;
+    color: transparent;
+    text-shadow:
+    0 0 0.3vw #0400ff,
+    0 0 0.521vw #0400ff;
+  } 3.3% {
+    /*3*/
+    opacity: 25%;
+    color: transparent;
+    text-shadow:
+    0 0 0.3vw #0400ff,
+    0 0 0.521vw #0400ff;
+  } 3.67% {
+    /*2*/
+  color: white;
+  text-shadow:
+    0 0 0.3vw #fff,
+    0 0 0.521vw #fff,
+    0 0 1.094vw #fff,
+    0 0 2.188vw #0400ff,
+    0 0 4.271vw #0400ff,
+    0 0 4.792vw #0400ff,
+    0 0 5.313vw #0400ff,
+    0 0 7.865vw #0400ff;
+  } 10% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff, 
+      0 0 2vw #0400ff, 
+      0 0 2.5vw #0400ff, 
+      0 0 3vw #0400ff, 
+      0 0 4vw #0400ff;
+  } 36.7% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  } 37.3% {
+    /*3*/
+    opacity: 25%;
+    color: transparent;
+    text-shadow:
+    0 0 0.3vw #0400ff,
+    0 0 0.521vw #0400ff;
+  } 38% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  } 40.67% {
+    /*3*/
+    opacity: 25%;
+    color: transparent;
+    text-shadow:
+    0 0 0.3vw #0400ff,
+    0 0 0.521vw #0400ff;
+  } 41.33% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  } 60% {
+    /*2*/
+  color: white;
+  text-shadow:
+    0 0 0.3vw #fff,
+    0 0 0.521vw #fff,
+    0 0 1.094vw #fff,
+    0 0 2.188vw #0400ff,
+    0 0 4.271vw #0400ff,
+    0 0 4.792vw #0400ff,
+    0 0 5.313vw #0400ff,
+    0 0 7.865vw #0400ff;
+  } 80% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  } 93.3% {
+    /*2*/
+  color: white;
+  text-shadow:
+    0 0 0.3vw #fff,
+    0 0 0.521vw #fff,
+    0 0 1.094vw #fff,
+    0 0 2.188vw #0400ff,
+    0 0 4.271vw #0400ff,
+    0 0 4.792vw #0400ff,
+    0 0 5.313vw #0400ff,
+    0 0 7.865vw #0400ff;
+  } 93.5% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  } 98% {
+    /*3*/
+    opacity: 25%;
+    color: transparent;
+    text-shadow:
+    0 0 0.3vw #0400ff,
+    0 0 0.521vw #0400ff;
+  } 100% {
+    /*1*/
+    opacity: 75%;
+    color: white;
+    text-shadow:
+      0 0 1vw #0400ff,
+      0 0 2vw #0400ff,
+      0 0 2.5vw #0400ff,
+      0 0 3vw #0400ff,
+      0 0 4vw #0400ff;
+  }
+}
+
+/*bold weight*/
+b {
+  font-weight: 600;
+}
+/*book weight NON ITALIC*/
+i {
+  font-style: normal ;
+  font-weight: 100 ;
+}
+
+
